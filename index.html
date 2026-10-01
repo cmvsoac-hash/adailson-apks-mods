@@ -34,6 +34,7 @@
             display: flex;
             flex-direction: row;
             gap: 20px;
+            align-items: center;
         }
 
         .text-content {
@@ -47,20 +48,24 @@
             margin-top: 0;
         }
 
-        .qr-code {
+        /* Container da imagem personalizada */
+        .custom-image {
             flex-shrink: 0;
-            width: 120px;
-            height: 120px;
-            background-color: #eee;
+            width: 140px;
+            height: 140px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid #ccc;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            background-color: #0a1929;
         }
 
-        .qr-code img {
+        .custom-image img {
             width: 100%;
             height: 100%;
+            object-fit: cover;
         }
 
         a {
@@ -82,9 +87,9 @@
                 flex-direction: column-reverse;
                 align-items: center;
             }
-            .qr-code {
-                width: 150px;
-                height: 150px;
+            .custom-image {
+                width: 180px;
+                height: 180px;
             }
             .text-content {
                 text-align: center;
@@ -98,11 +103,11 @@
 
     <div class="container">
         <div class="text-content">
-            <p>Aplicativos e emuladores selecionados e indicados pelo canal ADAILSON APKS MODS. Clique no link ou escaneie o QR Code para baixar a versão mais recente.</p>
+            <p>Aplicativos e emuladores selecionados e indicados pelo canal ADAILSON APKS MODS. Clique no link para baixar a versão mais recente.</p>
             
-            <p>Currently it serves <strong>2</strong> apps. To download, click the link below or scan the QR code:</p>
+            <p>Currently it serves <strong>2</strong> apps. To download, click the link below:</p>
             
-            <!-- LINK ATUALIZADO PARA A PÁGINA DE RELEASES -->
+            <!-- LINK PARA A PÁGINA DE RELEASES -->
             <p><a href="https://github.com/cmvsoac-hash/adailson-apks-mods/releases" target="_blank">https://github.com/cmvsoac-hash/adailson-apks-mods/releases</a></p>
             
             <p>If you would like to manually verify the fingerprint (SHA-256) of the repository signing key, here it is:</p>
@@ -114,9 +119,9 @@
             </div>
         </div>
         
-        <div class="qr-code">
-            <!-- QR CODE APONTANDO PARA A PÁGINA DE RELEASES -->
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/cmvsoac-hash/adailson-apks-mods/releases" alt="QR Code para Downloads">
+        <!-- IMAGEM PERSONALIZADA (substitui o QR Code) -->
+        <div class="custom-image">
+            <img src="fdroid/repo/icon.png" alt="ADAILSON TCK CELL">
         </div>
     </div>
 
