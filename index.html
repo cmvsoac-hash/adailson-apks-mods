@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece na aba do navegador -->
+    <title>ADAILSON APKS MODS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #0000cc;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+            padding: 20px;
+            max-width: 500px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .text-content {
+            flex: 1;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .text-content p {
+            margin-top: 0;
+        }
+
+        .qr-code {
+            flex-shrink: 0;
+            width: 120px;
+            height: 120px;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+        }
+
+        .qr-code img {
+            width: 100%;
+            height: 100%;
+        }
+
+        a {
+            color: #0000cc;
+            text-decoration: underline;
+            word-break: break-all;
+        }
+
+        .fingerprint {
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: 10px;
+            word-break: break-all;
+        }
+
+        /* Ajuste para telas pequenas (celular) */
+        @media (max-width: 480px) {
+            .container {
+                flex-direction: column-reverse;
+                align-items: center;
+            }
+            .qr-code {
+                width: 150px;
+                height: 150px;
+            }
+            .text-content {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NOME DO SEU CANAL AQUI -->
+    <h1>ADAILSON APKS MODS</h1>
+
+    <div class="container">
+        <div class="text-content">
+            <!-- TEXTO DESCRITIVO DO SEU CANAL -->
+            <p>Aplicativos e emuladores selecionados e indicados pelo canal ADAILSON APKS MODS. Versões, descrições, ícones e informações técnicas são atualizados automaticamente a partir das fontes oficiais.</p>
+            
+            <p>Currently it serves <strong>36</strong> apps. To add it to your F-Droid app, scan the QR code (click it to enlarge) or use this link:</p>
+            
+            <!-- ATENÇÃO: Troque o link abaixo pelo link do seu site no GitHub Pages -->
+            <p><a href="https://SEU-USUARIO.github.io/SEU-REPOSITORIO/" target="_blank">https://SEU-USUARIO.github.io/SEU-REPOSITORIO/</a></p>
+            
+            <p>If you would like to manually verify the fingerprint (SHA-256) of the repository signing key, here it is:</p>
+            
+            <!-- SEU CÓDIGO SHA-256 -->
+            <div class="fingerprint">
+                1B:4A:66:AA:C3:DB:BA:26:95:E2:04:68:53:92:F3:86<br>
+                08:A0:50:32:5D:DE:8D:7A:68:01:27:B7:D6:92:43:23
+            </div>
+        </div>
+        
+        <div class="qr-code">
+            <!-- ATENÇÃO: Troque o link dentro do 'src' pelo link do seu site. -->
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://SEU-USUARIO.github.io/SEU-REPOSITORIO/" alt="QR Code do Repositório">
+        </div>
+    </div>
+
+</body>
+</html>
