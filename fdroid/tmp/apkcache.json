@@ -377,5 +377,17 @@
     "size": 6584673,
     "apkName": "app-release_1.0.apk",
     "added": 1790873626.681273
+  },
+  "icon.png": {
+    "name": "icon",
+    "apkName": "icon.png",
+    "hash": "2222983c600b275fa7d1a8c99a38ba328ad2ec4db39688d81f7da918f6af38a2",
+    "hashType": "sha256",
+    "ipfsCIDv1": null,
+    "versionCode": 0,
+    "versionName": "2222983",
+    "packageName": "2222983c600b275fa7d1a8c99a38ba328ad2ec4db39688d81f7da918f6af38a2",
+    "size": 266234,
+    "added": 1790877606.796048
   }
 }
