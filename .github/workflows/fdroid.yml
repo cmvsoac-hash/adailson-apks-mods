@@ -24,10 +24,8 @@ jobs:
       - name: Configurar Keystore
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > fdroid/fdroid.keystore
-          # Remove a senha antiga se ela já existir no arquivo
           sed -i '/keystorepass/d' fdroid/config.yml
           sed -i '/keypass/d' fdroid/config.yml
-          # Adiciona a senha correta apenas uma vez
           echo "keystorepass: ${{ secrets.KEYSTORE_PASS }}" >> fdroid/config.yml
           echo "keypass: ${{ secrets.KEYSTORE_PASS }}" >> fdroid/config.yml
           chmod 600 fdroid/config.yml
