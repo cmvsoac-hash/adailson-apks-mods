@@ -174,5 +174,92 @@
     "apkName": "ADAILSON_APP_TV_2.0.apk",
     "icon": "com.adailsontp.app.2.png",
     "added": 1790868880.019013
+  },
+  "ADAILSON_APP_TV_3.0.apk": {
+    "hash": "8174a761a2b748b6297ff2029ad2bb0462d32e8ef38b0020ae956d1cb7c42908",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_AUDIO",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_VIDEO",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "com.adailsontp.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.adailsontp.app.3.png",
+      "480": "com.adailsontp.app.3.png",
+      "320": "com.adailsontp.app.3.png",
+      "240": "com.adailsontp.app.3.png",
+      "160": "com.adailsontp.app.3.png",
+      "0": "com.adailsontp.app.3.png"
+    },
+    "antiFeatures": {},
+    "packageName": "com.adailsontp.app",
+    "versionCode": 3,
+    "name": "ADAILSON APP TV",
+    "versionName": "3.0",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86",
+      "x86_64"
+    ],
+    "sig": "ee94945559da629d92fbf8232284a901",
+    "signer": "1b4a66aac3dbba2695e204685392f38608a050325dde8d7a680127b7d6924323",
+    "size": 6527868,
+    "apkName": "ADAILSON_APP_TV_3.0.apk",
+    "icon": "com.adailsontp.app.3.png",
+    "added": 1790873165.403564
   }
 }
