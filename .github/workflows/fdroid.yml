@@ -26,6 +26,7 @@ jobs:
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > fdroid/fdroid.keystore
           echo "keystorepass: ${{ secrets.KEYSTORE_PASS }}" >> fdroid/config.yml
           echo "keypass: ${{ secrets.KEYSTORE_PASS }}" >> fdroid/config.yml
+          chmod 600 fdroid/config.yml
 
       - name: Atualizar Repositório
         run: |
