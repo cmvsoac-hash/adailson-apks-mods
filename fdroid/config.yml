@@ -2,6 +2,4 @@ repo_url: https://cmvsoac-hash.github.io/adailson-apks-mods/fdroid/repo
 repo_name: ADAILSON APKS MODS
 keystore: fdroid.keystore
 repo_keyalias: fdroid
-keystorepass: A73Bm83
-keypass: A73Bm83
 repo_icon: icon.png
